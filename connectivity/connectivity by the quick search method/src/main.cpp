@@ -34,7 +34,7 @@ int main() {
   }
   while (true) {
     if (input(0, &num1) == 1 || num1 >= N || input(1, &num2) == 1 ||
-        num2 >= N) {
+        num2 >= N || !num1 || !num2) {
       break;
     } else if (num1 == num2) {
       continue;
