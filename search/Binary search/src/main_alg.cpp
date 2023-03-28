@@ -59,5 +59,5 @@ int search(int *a, int v, int N) {
     else
       left = difference + 1;
   }
-  return -1;
+  return -1; 
 }
