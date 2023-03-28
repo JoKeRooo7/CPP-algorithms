@@ -1,5 +1,6 @@
 ## Solving the connectivity problem by the quick search method
 <hr>
+
 ## main_algoritm.cpp
 
 This program reads from the standard input a sequence of pairs of non-negative integers less than <b>N</b> and maximum <b>NMAX</b>. Interpreting enter p and q as a command to link an object and outputs a linked pair
