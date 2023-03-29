@@ -8,7 +8,7 @@ int heads() {
 }
 
 int main(int argc, char *argv[]){
-    if (argc == 0) return 0;
+    if (argc == 1) return 0;
     int i, j, cnt;
     int N = atoi(argv[1]);
     int M = atoi(argv[2]);
