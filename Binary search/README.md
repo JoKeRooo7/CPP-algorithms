@@ -3,7 +3,7 @@
 
 ## Compilation
 
-To compile the code, while in the directory with the project, type through the terminal<code>g++ -Wall -Werror -West main_all</code> run, <b>./</b>a.out go a.exe
+To compile the code, while in the directory with the project, type through the terminal<code>g++ -Wall -Werror -West main_all</code> run, <b>./</b>a.out or a.exe
 
 ## main_alg
 
