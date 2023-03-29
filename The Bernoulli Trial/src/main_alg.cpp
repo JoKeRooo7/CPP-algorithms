@@ -16,8 +16,7 @@ int main(int argc, char *argv[]){
     for (j = 0; j <= N; j++) f[j] = 0;
     for (i = 0; i < M; i++, f[cnt]++) {
         for (cnt = 0, j = 0; j <= N; j++)
-            if (heads()) cnt++;  //if true or 1
-    cout << "M=" << i << "\tcng=" << cnt << endl;
+            if (heads()) cnt++;                     //if true or 1
     }
     for (j = 1; j <= N; j++) {
         if (f[j] == 0) cout << ".";
