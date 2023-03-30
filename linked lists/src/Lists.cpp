@@ -1,4 +1,4 @@
-#include "SLList.h"
+#include "Lists.h"
 
 int main() {
     SLList_t *a = new SLList_t;
@@ -12,9 +12,13 @@ int main() {
 
 void SLL_push_back(SLList_t **old_list, int input_item) {
     SLList_t *new_list = new SLList_t;
-    new_list -> item = input_item;
-    new_list -> next = (*old_list);
-    (*old_list) = new_list;
+    if (*new_list) {
+        new_list -> item = input_item;
+        new_list -> next = (*old_list);
+        (*old_list) = new_list;
+    } else {
+        cout << "No memory allocated\n";
+    }
 }
 
 int SLL_pop_back(SLList_t **list) {
@@ -36,4 +40,8 @@ void SLL_clear(SLList_t **list) {
         (*list) = (*list) -> next;
         delete old_list;
     }
+}
+
+SLList_t reverse(SLList_t **x) {
+    
 }

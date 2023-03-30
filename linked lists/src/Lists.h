@@ -8,11 +8,18 @@ typedef struct node {
     node *next;
 } SLList_t;
 
+typedef struct node2 {
+    int item;
+    node2 *back;
+    node2 *next;
+} DLList_t;
+
 using namespace std;
 
 void SLL_push_back(SLList_t **old_list, int input_item);
 int SLL_pop_back(SLList_t **old_list);
 void SLL_clear(SLList_t **list);
+SLList_t reverse(SLList_t **x);
 
 // struct node {
 //     int item;
