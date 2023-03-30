@@ -19,6 +19,7 @@ using namespace std;
 void SLL_push_back(SLList_t **old_list, int input_item);
 int SLL_pop_back(SLList_t **old_list);
 void SLL_clear(SLList_t **list);
+void SSL_sort(SLList_t **x);
 SLList_t reverse(SLList_t **x);
 
 // struct node {
